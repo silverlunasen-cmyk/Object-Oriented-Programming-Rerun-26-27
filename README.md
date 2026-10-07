@@ -24,6 +24,7 @@ Unfortunately due to some fees shenanigans, I have been left in the unfun situat
 * Comparator is if you were to override the comparable and have it sorted in a different way, as an example, descending order;
 * Comparator also allows you to have tiebreaks in place. As an example, [here](https://github.com/silverlunasen-cmyk/Object-Oriented-Programming-Rerun-26-27/blob/main/src/main/java/Ordering/Product.java) we have a product class from the ordering exercises. Using [this comparator](https://github.com/silverlunasen-cmyk/Object-Oriented-Programming-Rerun-26-27/blob/main/src/main/java/Ordering/NameAscComparator.java), we have the name as the main sort, but if it is tied then we go to price, then rating.
 * Comparators are also done in seperate classes.
+* [Ordering Exercises can be found here](https://github.com/silverlunasen-cmyk/Object-Oriented-Programming-Rerun-26-27/blob/main/src/main/java/Ordering/Product.java) we have a product class from the ordering exercises. Using [this comparator](https://github.com/silverlunasen-cmyk/Object-Oriented-Programming-Rerun-26-27/blob/main/src/main/java/Ordering)
 
 
 

@@ -7,7 +7,7 @@ public class NameAscComparator implements Comparator<Product>
     @Override
     public int compare(Product a, Product b)
     {
-        if(a.getName() == b.getName())
+/*        if(a.getName() == b.getName())
         {
             if(a.getPrice() == b.getPrice())
             {
@@ -15,7 +15,7 @@ public class NameAscComparator implements Comparator<Product>
             }
             return Double.compare(a.getPrice(), b.getPrice());
 
-        }
+        }*/
         return a.getName().compareTo(b.getName());
     }
 }

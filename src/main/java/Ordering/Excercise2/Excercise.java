@@ -5,7 +5,8 @@ import Ordering.Product;
 
 import java.util.ArrayList;
 import java.util.List;
-
+//Task: Define Product(name:String, price:double, rating:double).
+// Create NameAscComparator that sorts products by name A–Z.
 
 public class Excercise
 {
@@ -22,7 +23,5 @@ public class Excercise
         items.sort(new NameAscComparator());
         System.out.println(items);
     }
-
-
 
 }

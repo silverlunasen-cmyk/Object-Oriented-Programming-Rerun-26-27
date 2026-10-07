@@ -4,6 +4,8 @@ import Ordering.Product;
 import java.util.ArrayList;
 import java.util.List;
 
+//Task: Sort the products by price ascending using an anonymous Comparator<Product>.
+
 public class Excercise
 {
     static void main()
@@ -16,7 +18,7 @@ public class Excercise
         items.add(new Product("Desk Fan", 48.00, 27.1));
         items.add(new Product("Frank Keenan", 33, 5));
 
-        java.util.Comparator<Product> priceAsc = new java.util.Comparator<Product>()
+        Comparator<Product> priceAsc = new Comparator<Product>()
         {
             @Override public int compare(Product a, Product b)
             {
@@ -25,6 +27,7 @@ public class Excercise
         };
 
         items.sort(priceAsc);
+        System.out.println(items);
 
 
 

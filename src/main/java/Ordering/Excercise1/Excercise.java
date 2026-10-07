@@ -3,6 +3,9 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+//Task: Create a Score(player:String, value:int) class that implements Comparable<Score>.
+// Sorting rule: value descending, then player name ascending.
+
 public class Excercise
 {
     static void main()

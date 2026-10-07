@@ -6,5 +6,5 @@ Unfortunately due to some fees shenanigans, I have been left in the unfun situat
 
 * OOP in semester 1 is Tuesdays 10-11 and 3-5, and Thursdays 9-10;
 * There is two CA's per semester, two projects and two tests.
-* Project 1 is a solo project, Project 2 is a Group Project;
+* [Project 1](https://github.com/silverlunasen-cmyk/OOP-I-CA1-2026-27/tree/main) is a solo project, Project 2 is a Group Project;
 * 

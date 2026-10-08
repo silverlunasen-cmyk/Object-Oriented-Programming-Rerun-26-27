@@ -14,7 +14,10 @@ package Ordering.Excercise6;
             this.rating = rating;
         }
 
-        public String name() { return name; }
+        public String name()
+        {
+            return name;
+        }
         public double price()
         {
             return price;

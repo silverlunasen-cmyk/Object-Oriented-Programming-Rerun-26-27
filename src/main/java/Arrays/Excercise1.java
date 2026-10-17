@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public static final void main(String[] args)
 {
-    int[] newArray=fillWith(0,0);
+    int[] newArray=fillWith(3,6);
     System.out.println(Arrays.toString(newArray));
 
 

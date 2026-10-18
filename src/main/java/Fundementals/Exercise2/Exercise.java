@@ -17,7 +17,9 @@ public class Exercise
         System.out.println(bankAccount);
 
 
-        //bankAccount.withdraw(580);
+//        bankAccount.withdraw(580);
+
+        BankAccount bankAccount1 = new BankAccount(-1000);
 
     }
 }

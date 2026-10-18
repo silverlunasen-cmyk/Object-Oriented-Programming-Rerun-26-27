@@ -11,11 +11,11 @@ public class Exercise
 
         static void main()
         {
-            Book book1 = new Book(null, 44);
             Book book2 = new Book("Coffee", 33);
 
-            System.out.println(book1);
             System.out.println(book2);
+
+            Book book1 = new Book(null, 44);
         }
 
 }

@@ -12,6 +12,8 @@ public class Exercise
         System.out.println(rectangle1.Perimeter());//should be 134;
 
         System.out.println("is this square? " + rectangle2.isSquare());
+
+        Rectangle rectangle3 = new Rectangle(-6, 2);
     }
 
 }

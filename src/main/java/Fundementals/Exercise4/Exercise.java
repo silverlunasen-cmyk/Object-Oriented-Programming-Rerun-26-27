@@ -20,6 +20,8 @@ public class Exercise
 
         classroom.printAll();
 
+        Student s4 = new Student("Niall", -1000);
+
 
 
     }

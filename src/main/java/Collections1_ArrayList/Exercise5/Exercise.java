@@ -36,5 +36,7 @@ public class Exercise
         System.out.println("When inserting from the front, it takes: " +frontNanos+" nanoseconds");
         System.out.println("While appending, it takes: " + appendNanos + " nanoseconds");
 
+        System.out.println("It takes longer to insert from the front because everything is pushed back an extra index.");
+
     }
 }

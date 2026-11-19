@@ -1,6 +1,6 @@
 package Inheritance.Exercise4;
 
-abstract class Weapon
+public abstract class Weapon
 {
     private final String id;
 
